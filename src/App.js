@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Encabezado from "./componentes/Encabezado/Encabezado"
+import Navegacion from "./componentes/Navegacion/Navegacion"
+import Principal from "./componentes/Principal/Principal"   
+import Productos from "./componentes/Productos/Productos"
+import PiePagina from "./componentes/PiePagina/PiePagina"
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <Encabezado/>
       </header>
+
+      <nav>
+        <Navegacion/>
+      </nav>
+
+      <section>
+        <Principal/>
+      </section>
+
+      <section>
+        <Productos/>
+      </section>
+
+      <footer>
+        <PiePagina/>
+      </footer>
     </div>
   );
 }
