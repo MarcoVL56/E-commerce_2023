@@ -3,6 +3,12 @@ import "./Navegacion.css"
 
 
 function Navegacion(props){
+
+    return(
+        <nav className="navegacion">
+            
+        </nav>
+    )
     
 }
 

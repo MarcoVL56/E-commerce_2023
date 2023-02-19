@@ -7,12 +7,21 @@ import Productos from "./componentes/Productos/Productos"
 import PiePagina from "./componentes/PiePagina/PiePagina"
 
 
+const imagenesEncabezado = [
+  {nombre: "Logo Principal", direccion: "./img/logos/logoPrincipal.png"},
+  {nombre: "Logo Busqueda", direccion: "./img/logos/logoBusqueda.png"}
+];
+
+const imagenesPrincipales = [
+  {nombre: "Fondo Principal", direccion: "./img/fondos/fondoPrincipal.jpg"}
+];
+
 function App() {
   return (
     <div className='contenedor-disposicion'>
-      <Encabezado />
+      <Encabezado logoPrincipal = {imagenesEncabezado[0]} logoBusqueda = {imagenesEncabezado[1]}/>
       <Navegacion />
-      <Principal />
+      <Principal fondoPrincipal = {imagenesPrincipales[0]}/>
       <Productos />
       <PiePagina />
     </div>
