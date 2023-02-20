@@ -4,11 +4,10 @@ import "./Principal.css"
 function Principal(props){
 
     return(
-        <div className="seccion-principal">
+        <section className="seccion-principal">
             <div className="contenedor-titulo">
                 <div className="contenedor-titulo__elementos">
                     <h1 className="contenedor-titulo__h1">Todo en tecnología de alto rendimiento</h1>
-                  
                 </div>
             </div>
 
@@ -17,7 +16,7 @@ function Principal(props){
                     <img className="contenedor-presentacion__img" src={props.fondoPrincipal.direccion} alt={props.fondoPrincipal.nombre}></img>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

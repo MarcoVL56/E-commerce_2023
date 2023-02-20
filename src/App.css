@@ -1,4 +1,4 @@
 .contenedor-disposicion{
-  height: 500vh; 
+  min-height: 200vh; 
   background-color: rgb(239, 245, 245);
 }
