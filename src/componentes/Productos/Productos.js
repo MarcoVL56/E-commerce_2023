@@ -1,14 +1,12 @@
 import React from "react";
 import "./Productos.css"
 
+
 function Productos(props) {
 
     return (
         <div className="seccion-productos">
-            <Tendencias />
-            <ImagenesProductos />
-            <Gaming />
-            <Nuevos />
+            <ProductosPaginaPrincipal/>
         </div>
     )
 
@@ -18,50 +16,126 @@ function Productos(props) {
 export default Productos
 
 
-function Tendencias(props) {
+function ProductosPaginaPrincipal(props) {
 
-    return (
-        <div className="contenedor-tendencias">
-            <div className="contenedor-tendencias__elementos">
-                <div className="contenedor-tendencias__subtitulo">
-                    <h2 className="contenedor-tendencias__h2">Tendencias</h2>
+    return(
+        <div className="contenedor-grupo-productos">
+            <div className="contenedor-categoria-producto">
+                <div className="contenedor-categoria-producto__titulo">
+                    <h2 className="contenedor-categoria-producto__h2">
+                        Tendecias
+                    </h2>
                 </div>
             </div>
 
-            <div className="contenedor-tendencias__elementos">
-                <div className="contenedor-tendencias__etiquetas">
-                    
+            <div className="contenedor-producto">
+                <div className="contenedor-etiqueta-producto">
+                    <div className="contenedor-etiqueta-producto__imagen">
+                        <img className="contenedor-etiqueta-producto__img" 
+                            src="./img/productos/productoReferencia.jpg" 
+                            alt="Producto Referencia">
+                        </img>
+                    </div>
+
+                    <div className="contenedor-etiqueta-producto__informacion">
+                        <h3 className="contenedor-etiqueta-producto__h3">
+                                ₡65000
+                        </h3>
+                        <h2 className="contenedor-etiqueta-producto__h2">
+                            Titulo del producto
+                        </h2>
+                        <button className="contenedor-etiqueta-producto__button">
+                            Más información
+                        </button>
+                    </div>
                 </div>
+
+                <div className="contenedor-etiqueta-producto">
+                    <div className="contenedor-etiqueta-producto__imagen">
+                        <img className="contenedor-etiqueta-producto__img" 
+                            src="./img/productos/productoReferencia.jpg" 
+                            alt="Producto Referencia">
+                        </img>
+                    </div>
+
+                    <div className="contenedor-etiqueta-producto__informacion">
+                        <h3 className="contenedor-etiqueta-producto__h3">
+                                ₡65000
+                        </h3>
+                        <h2 className="contenedor-etiqueta-producto__h2">
+                            Titulo del producto
+                        </h2>
+                        <button className="contenedor-etiqueta-producto__button">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+
+                <div className="contenedor-etiqueta-producto">
+                    <div className="contenedor-etiqueta-producto__imagen">
+                        <img className="contenedor-etiqueta-producto__img" 
+                            src="./img/productos/productoReferencia.jpg" 
+                            alt="Producto Referencia">
+                        </img>
+                    </div>
+
+                    <div className="contenedor-etiqueta-producto__informacion">
+                        <h3 className="contenedor-etiqueta-producto__h3">
+                                ₡65000
+                        </h3>
+                        <h2 className="contenedor-etiqueta-producto__h2">
+                            Titulo del producto
+                        </h2>
+                        <button className="contenedor-etiqueta-producto__button">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+
+                <div className="contenedor-etiqueta-producto">
+                    <div className="contenedor-etiqueta-producto__imagen">
+                        <img className="contenedor-etiqueta-producto__img" 
+                            src="./img/productos/productoReferencia.jpg" 
+                            alt="Producto Referencia">
+                        </img>
+                    </div>
+
+                    <div className="contenedor-etiqueta-producto__informacion">
+                        <h3 className="contenedor-etiqueta-producto__h3">
+                                ₡65000
+                        </h3>
+                        <h2 className="contenedor-etiqueta-producto__h2">
+                            Titulo del producto
+                        </h2>
+                        <button className="contenedor-etiqueta-producto__button">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+
+                <div className="contenedor-etiqueta-producto">
+                    <div className="contenedor-etiqueta-producto__imagen">
+                        <img className="contenedor-etiqueta-producto__img" 
+                            src="./img/productos/productoReferencia.jpg" 
+                            alt="Producto Referencia">
+                        </img>
+                    </div>
+
+                    <div className="contenedor-etiqueta-producto__informacion">
+                        <h3 className="contenedor-etiqueta-producto__h3">
+                                ₡65000
+                        </h3>
+                        <h2 className="contenedor-etiqueta-producto__h2">
+                            Titulo del producto
+                        </h2>
+                        <button className="contenedor-etiqueta-producto__button">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+
             </div>
-        </div>
-    )
 
-}
-
-
-function ImagenesProductos(props) {
-
-    return (
-        <div className="contenedor-productos">
-       
-        </div>
-    )
-}
-
-
-function Gaming(props) {
-    return (
-        <div className="contenedor-gaming">
-   
-        </div>
-    )
-
-}
-
-function Nuevos(props) {
-    return (
-        <div className="contenedor-nuevos">
-    
         </div>
     )
 

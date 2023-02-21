@@ -1,5 +1,6 @@
+/* Seccion principal de los productos */
 .seccion-productos{
-    min-height: 132vh;
+    min-height: 50vh;
     width: 80%;
     margin: 2% 10%;
     display: flex;
@@ -11,59 +12,98 @@
     border-radius: 10px;
 }
 
-
-.contenedor-tendencias{
-    min-height: 60vh;
+/* Contenedor del una agrupacion de productos */
+.contenedor-grupo-productos{
+    min-height: 50vh;
     margin: 20px;
+    padding: 10px 0;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     background-color: rgb(239, 245, 245);
 }
 
 
-.contenedor-tendencias__elementos{
-    margin: 20px;
+/* Contenedor de la categoria de los productos */
+.contenedor-categoria-producto{
+    padding: 10px 30px;
 }
 
-.contenedor-tendencias__subtitulo{
-    padding: 0 20px;
+.contenedor-categoria-producto__titulo{
+    display: flex;
     color: rgb(65, 63, 66);
-    font-family: 'Heebo', sans-serif;
+}
+
+.contenedor-categoria-producto__h2{
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 20px;
     border: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-color: rgb(73, 113, 116);
 }
-.contenedor-tendencias__h2{
+
+
+.contenedor-producto{
+    padding: 10px 20px;
+    display: flex;
+}
+
+/* Contenedor de la carta de presentacion del producto */
+.contenedor-etiqueta-producto{
+    width: 20%;
+    padding: 20px;
+    margin: 5px 10px;
+    background-color: rgb(214, 228, 229);
+    border-radius: 5px;
+}
+
+
+/* Contenedor de la imagen del producto */
+.contenedor-etiqueta-producto__imagen{
+    height: 25vh;
+}
+
+.contenedor-etiqueta-producto__img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 5px;
+}
+
+
+/* Contenedor de la informacion del producto */
+.contenedor-etiqueta-producto__informacion{
+    padding: 10px 0;
+}
+
+
+.contenedor-etiqueta-producto__h3{
+    margin: 0;
+    font-size: 15px;
+    color: rgb(65, 63, 66);
+    background-color: rgb(239, 245, 245);
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+.contenedor-etiqueta-producto__h2{
+    margin: 0;
+    padding: 5px 0;
     font-size: 20px;
-    margin: 5px;
+    color: rgb(65, 63, 66);
 }
 
-
-
-.contenedor-productos{
-    height: 80vh;
-    margin: 20px;
-    background-color: rgb(239, 245, 245);
+.contenedor-etiqueta-producto__button{
+    width: 100%;
+    font-size: 15px;
+    border: solid;
+    border-color: rgb(73, 113, 116);
+    border-radius: 5px;
+    background-color: rgb(73, 113, 116);
+    color: rgb(239, 245, 245);
 }
 
-
-
-
-
-
-.contenedor-gaming{
-    min-height: 60vh;
-    margin: 20px;
-    background-color: rgb(239, 245, 245);
-}
-
-
-
-
-
-.contenedor-nuevos{
-    min-height: 60vh;
-    margin: 20px;
-    background-color: rgb(239, 245, 245);
+.contenedor-etiqueta-producto__button:hover{
+    background-color: rgb(57, 81, 68);
+    border-color: rgb(57, 81, 68);
 }
