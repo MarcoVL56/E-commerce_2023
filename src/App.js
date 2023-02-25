@@ -5,6 +5,8 @@ import Navegacion from "./componentes/Navegacion/Navegacion"
 import Principal from "./componentes/Principal/Principal"
 import Productos from "./componentes/Productos/Productos"
 import PiePagina from "./componentes/PiePagina/PiePagina"
+import { BrowserRouter } from 'react-router-dom';
+
 
 
 function App() {
@@ -19,11 +21,18 @@ function App() {
 
   return (
     <div className='contenedor-disposicion'>
-      <Encabezado imagenesEncabezado = {imagenesEncabezado}/>
-      <Navegacion />
-      <Principal imagenesPrincipales = {imagenesPrincipales}/>
-      <Productos />
-      <PiePagina />
+
+      <BrowserRouter>
+        <Encabezado  imagenesEncabezado={ imagenesEncabezado } />
+        <Navegacion />
+        <Principal imagenesPrincipales = {imagenesPrincipales}/>
+        <Productos />
+        <PiePagina />
+
+        
+      
+      </BrowserRouter>
+      
     </div>
   );
 }

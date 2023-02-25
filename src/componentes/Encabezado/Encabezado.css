@@ -7,7 +7,6 @@
     align-items: center;
     background-color: rgb(214, 228, 229);
     position: fixed;
-
     -webkit-box-shadow: 0px 9px 35px -17px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 9px 35px -17px rgba(0,0,0,0.75);
     box-shadow: 0px 9px 35px -17px rgba(0,0,0,0.75);
@@ -80,6 +79,7 @@
     border-color: rgb(235, 100, 64);
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    cursor: pointer;
 }
 
 .contenedor-busqueda__button:hover{
