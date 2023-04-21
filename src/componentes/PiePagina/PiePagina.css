@@ -1,0 +1,102 @@
+.pie-pagina{
+    min-height: 50vh;
+    padding: 0 10%;
+    background-color: rgb(73, 113, 116);
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Titulo de la seccion de contacto */
+.contenedor-contacto-titulo{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-contacto-titulo__elementos{
+    padding: 20px;
+    color: rgb(239, 245, 245);
+}
+
+.contenedor-contacto-titulo__h2{
+    margin: 0;
+    font-size: 25px;
+}
+
+
+
+/* Toda la informacion de la seccion de contacto  */
+.contenedor-contacto-informacion{
+    display: flex;
+    border-top: 2px solid rgb(239, 245, 245);
+    border-bottom: 2px solid rgb(239, 245, 245);
+}
+
+.contenedor-contacto-informacion__elementos{
+    width: 25%;
+    padding: 20px 20px 20px 0px;
+    color: rgb(239, 245, 245);
+}
+
+.contenedor-contacto-informacion__elementos--alto{
+   min-height: 35vh;
+}
+
+.contenedor-contacto-informacion__h3{
+    margin: 0;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.contenedor-contacto-informacion__p{
+    margin: 0;
+    padding: 5px 0;
+    font-size: 15px;
+}
+
+.contenedor-contacto-informacion__img{
+    margin: 0;
+    padding: 5px 0;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
+/* Todas las redes sociales de la informacion de contacto */
+.contenedor-contacto-redes{
+    padding: 5px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-contacto-redes__elementos{
+    padding: 10px 10px 5px;
+    color: rgb(239, 245, 245);
+    display: flex;
+}
+
+.contenedor-contacto-redes__elementos--espacio{
+    padding: 5px 10px 10px;
+}
+
+.contenedor-contacto-redes__h2{
+    margin: 0;
+    font-size: 25px;
+}
+
+.contenedor-contacto-redes__link{
+    min-height: 40px;
+    padding: 10px;
+}
+
+.contenedor-contacto-redes__img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
